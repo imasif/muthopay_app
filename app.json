@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "muthopay",
+    "description": "app for muthopay payments",
+    "slug": "muthopay",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mononai.facelens"
+    },
+    "android": {
+      "package": "com.mononai.facelens"
+    }
+  }
+}
